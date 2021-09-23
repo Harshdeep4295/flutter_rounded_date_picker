@@ -62,15 +62,15 @@ class FlutterRoundedDatePickerHeader extends StatelessWidget {
         break;
     }
 
-    if (style?.textStyleDayButton?.color != null) {
-      style?.textStyleDayButton =
-          style?.textStyleDayButton?.copyWith(color: dayColor);
-    }
+    // if (style?.textStyleDayButton?.color != null) {
+    //   style?.textStyleDayButton =
+    //       style?.textStyleDayButton?.copyWith(color: dayColor);
+    // }
 
-    if (style?.textStyleDayButton?.fontFamily != null) {
-      style?.textStyleDayButton =
-          style?.textStyleDayButton?.copyWith(fontFamily: fontFamily);
-    }
+    // if (style?.textStyleDayButton?.fontFamily != null) {
+    //   style?.textStyleDayButton =
+    //       style?.textStyleDayButton?.copyWith(fontFamily: fontFamily);
+    // }
 
     final TextStyle dayStyle = style?.textStyleDayButton ??
         headerTextTheme.headline4!
